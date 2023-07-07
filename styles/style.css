@@ -5,6 +5,7 @@ nav{
     display: flex; 
     justify-content: space-around;
     align-items: center;
+    background-color: #f6eddd;
 
 }
 
@@ -13,14 +14,19 @@ nav{
     font-style: normal;}
 
 .orangetheme{color: #FD6E0A;}
-.navlist{list-style: none; display: flex;}
+.navlist{list-style: none; display: flex; align-items: center;}
 nav li{margin-left: 30px;}
-.noline{text-decoration: none; color: var(--dark-02, #474747);
-    font-size: 15px;}
 
-.noline:hover{color: white;}
 
 .mainbutton{padding: 10px 15px; border-style: none;
-    background: #FD6E0A; color: white;} 
+    background: #FD6E0A; color: white; cursor: pointer;} 
+    .mainbutton:hover{color: rgb(75, 68, 68);}
 
     li > a{text-decoration: none;}
+    nav a:hover{color: #FD6E0A;}
+
+
+.banner{background-color:#f6eddd; padding: 30px 30px 30px 150px; box-sizing: border-box; display: flex;
+align-items: center; justify-content: space-around;
+}
+.header{background-color:#f6eddd;}
