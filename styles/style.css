@@ -1,0 +1,26 @@
+
+body{font-family: 'Montserrat', sans-serif;}
+
+nav{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.martin{color: #181818;
+    font-size: 45px;
+    font-style: normal;}
+
+.orangetheme{color: #FD6E0A;}
+.navlist{list-style: none; display: flex;}
+nav li{margin-left: 30px;}
+.noline{text-decoration: none; color: var(--dark-02, #474747);
+    font-size: 15px;}
+
+.noline:hover{color: white;}
+
+.mainbutton{padding: 10px 15px; border-style: none;
+    background: #FD6E0A; color: white;} 
+
+    li > a{text-decoration: none;}
