@@ -28,15 +28,42 @@ nav li{margin-left: 30px;}
 .header{background-color:#f6eddd; background-image: url(images/header_bg.png);
 background-repeat: no-repeat; background-position: bottom right; background-size: 500px;
 flex-shrink: 0;}
+
 .banner{
     padding: 30px 30px 0px 150px; display: flex; box-sizing: border-box;
     flex-shrink: 0;
 }
 
-.main1{background-color: #f6eddd; padding: 50px; margin: 100px 0px 0px 70px;}
-div ul{display: flex; list-style: none; margin-left: 20px;
-    margin-top: 40px; justify-content: space-around;}
-main{max-width: 1140px; text-align: center;}
+.main1{background-color: #f6eddd; padding: 100px; border-radius: 10px;
+margin: 130px;}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;}
+
+main{text-align: center;}
+
 .text{font-size: 18px;
-    line-height: 30px;}
+    line-height: 30px; text-align: center;}
+
 .details{font-weight: 700;}
+
+.text2{font-size: 18px;
+   line-height: 30px;
+text-align: center;}
+
+.skillcontainer{display:flex; gap: 30px;
+    justify-content: space-between; padding: 50px;
+}
+
+.skills{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 20px 6px 50px 30px rgba(0, 0, 0, 0.06);
+padding: 30px;}
+.resume{display: flex; justify-content: center; gap: 50px;
+text-align: left;}
