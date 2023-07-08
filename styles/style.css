@@ -26,7 +26,7 @@ nav li{margin-left: 30px;}
     nav a:hover{color: #FD6E0A;}
 
 
-.banner{background-color:#f6eddd; padding: 30px 30px 30px 150px; box-sizing: border-box; display: flex;
+.banner{background-color:#e9e6e1; padding: 30px 30px 30px 150px; display: flex;
 align-items: center; justify-content: space-around;
 }
-.header{background-color:#f6eddd;}
+
